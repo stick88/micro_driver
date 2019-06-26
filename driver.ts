@@ -1,5 +1,5 @@
 /**
- * micro
+ * PCA9685
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace PCA9685 {
