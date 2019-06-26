@@ -1,5 +1,5 @@
 {
-    "name": "pca9685",
+    "name": "Micro_bit扩展板——openjumper",
     "version": "0.0.4",
     "description": "Generic PCA9685 driver for the BBC micro:bit",
     "license": "MIT",
