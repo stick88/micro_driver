@@ -1,7 +1,7 @@
 /**
  * PCA9685
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#ffbc11 icon=""
 namespace PCA9685 {
     let _DEBUG: boolean = false
     const debug = (msg: string) => {
@@ -147,14 +147,14 @@ namespace PCA9685 {
         Servo6 = 6,
         Servo7 = 7,
         Servo8 = 8,
-        Servo9 = 9,
+       /* Servo9 = 9,
         Servo10 = 10,
         Servo11 = 11,
         Servo12 = 12,
         Servo13 = 13,
         Servo14 = 14,
         Servo15 = 15,
-        Servo16 = 16,
+        Servo16 = 16,*/
     }
 
     export enum LEDNum {
@@ -342,7 +342,7 @@ namespace PCA9685 {
      * @param ledNumber The number (1-16) of the LED to set the duty cycle on
      * @param dutyCycle The duty cycle (0-100) to set the LED to
      */
-    //% block
+    //% block advanced=true
     export function setLedDutyCycle(ledNum: LEDNum = 1, dutyCycle: number, chipAddress: number = 0x40): void {
         ledNum = Math.max(1, Math.min(16, ledNum))
         dutyCycle = Math.max(0, Math.min(100, dutyCycle))
