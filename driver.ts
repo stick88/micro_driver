@@ -1,5 +1,5 @@
 /**
- * PCA9685
+ * micro扩展
  */
 //% weight=100 color=#ffbc11 icon=""
 namespace PCA9685 {
