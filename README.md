@@ -28,14 +28,7 @@ From within [MakeCode](https://makecode.microbit.org/) select the "Advanced" sec
  * Pin5
  * Pin6
  * Pin7
- * Pin8
- * Pin9
- * Pin10
- * Pin11
- * Pin12
- * Pin13
- * Pin14
- * Pin15
+
 
 ### ServoNum
 
@@ -47,33 +40,8 @@ From within [MakeCode](https://makecode.microbit.org/) select the "Advanced" sec
  * Servo6
  * Servo7
  * Servo8
- * Servo9
- * Servo10
- * Servo11
- * Servo12
- * Servo13
- * Servo14
- * Servo15
- * Servo16
 
-### LEDNum
 
- * LED1
- * LED2
- * LED3
- * LED4
- * LED5
- * LED6
- * LED7
- * LED8
- * LED9
- * LED10
- * LED11
- * LED12
- * LED13
- * LED14
- * LED15
- * LED16
 
 ## Servos
 
