@@ -1,5 +1,5 @@
 /**
- * micro—bit扩展板
+ * micro
  */
 //% weight=100 color=#ffbc11 icon=""
 namespace PCA9685 {
